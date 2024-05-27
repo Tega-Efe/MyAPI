@@ -60,7 +60,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [ 
-            'C:/Users/Adjeh.Dominic/Documents/MyAPI/frontend/build'
+            # 'C:/Users/Adjeh.Dominic/Documents/MyAPI/frontend/build'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -124,10 +124,10 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATICFILES_DIRS = [
+# STATICFILES_DIRS = [
     
-    'C:/Users/Adjeh.Dominic/Documents/MyAPI/frontend/build/static'
-]
+#     'C:/Users/Adjeh.Dominic/Documents/MyAPI/frontend/build/static'
+# ]
 
 
 # Default primary key field type
