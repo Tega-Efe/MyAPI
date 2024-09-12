@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-a#!t!!0$58&ua-u)m9bzun9wugrofm3%3+#zop9-!7e)cuo0%k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1' ,'myapi-x4jf.onrender.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','10.11.196.109' ,'myapi-x4jf.onrender.com']
 
 
 # Application definition
@@ -136,3 +136,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_HEADERS = ['x-device-id','Content-Type']
